@@ -5,10 +5,17 @@ const Categories = ({filterItems}) => {
 
       <div className='btn-container'>
         <button classname='filter-btn' onClick={(()=> {
+          filterItems('all')
+        })}>
+          all
+        </button>
+
+        <button classname='filter-btn' onClick={(()=> {
           filterItems('breakfast')
         })}>
           breakfast
         </button>
+
       </div>
 
   )
