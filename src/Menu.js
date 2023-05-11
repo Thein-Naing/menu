@@ -1,7 +1,15 @@
 import React from 'react';
 
-const Menu = () => {
-  return <h2>menu component</h2>;
-};
+// {items} meaning we will render new values from this argument.
+const Menu = ({items}) => {
+return (
+    <div className='section-center'>
+      {items.map((menuItem) => {
+        const {id, title, img, desc} = menuItem;
+
+    })}
+
+    </div>
+)};
 
 export default Menu;
