@@ -11,7 +11,7 @@ const allCategories = ['all', ...new Set(items.map((item) => item.category)),]
 
 function App() {
   const [menuItems, setMenuItems] = useState(items);
-  const [categories, setCategories] = useState([]);
+  const [categories, setCategories] = useState(allCategories);
 
 
   const filterItems = (category) => {
@@ -30,7 +30,8 @@ function App() {
         <h3>Our menu</h3>
         <div className='underline'></div>
         </div>
-        <Categories filterItems= {filterItems}/>
+        <Categories categories={categories}
+        filterItems= {filterItems}/>
         <Menu items={menuItems} />
       </section>
     </main>
