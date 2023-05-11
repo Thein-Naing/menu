@@ -64,10 +64,10 @@ const menu = [
     desc: `on it tumblr kickstarter thundercats migas everyday carry squid palo santo leggings. Food truck truffaut  `,
   },
   {
-    id: 9,
+    id: 10,
     title: 'quarantine buddy',
-    category: 'shakes',
-    price: 16.99,
+    category: 'dinner',
+    price: 29.99,
     img: './images/item-9.jpeg',
     desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
   },
