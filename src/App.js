@@ -8,7 +8,14 @@ function App() {
   const [categories, setCategories] = useState([]);
   return (
     <main>
-     <h3>Our menu</h3>
+      <section className='menu section'>
+        <div classname='title'>
+        <h3>Our menu</h3>
+        <div classname='underline'></div>
+        </div>
+        < Categories />
+        < Menu />
+      </section>
     </main>
 
   );
